@@ -37,7 +37,7 @@ notarize:
 	osascript -e 'display notification "Submitting app for notarization..." with title "Build the Stats"'
 	echo "Submitting app for notarization..."
 
-	xcrun notarytool submit --keychain-profile "AC_PASSWORD" --wait $(ZIP_PATH)
+	xcrun notarytool submit --keychain-profile "RsyncUI" --wait $(ZIP_PATH)
 
 	echo "Stats successfully notarized"
 
@@ -91,10 +91,10 @@ next-version:
 	/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $$versionNumber" "$(PWD)/Stats/Supporting Files/Info.plist" ;\
 
 check:
-	xcrun notarytool log 2d0045cc-8f0d-4f4c-ba6f-728895fd064a --keychain-profile "AC_PASSWORD"
+	xcrun notarytool log 2d0045cc-8f0d-4f4c-ba6f-728895fd064a --keychain-profile "RsyncUI"
 
 history:
-	xcrun notarytool history --keychain-profile "AC_PASSWORD"
+	xcrun notarytool history --keychain-profile "RsyncUI"
 
 open:
 	osascript -e 'display notification "Stats signed and ready for distribution" with title "Build the Stats"'
