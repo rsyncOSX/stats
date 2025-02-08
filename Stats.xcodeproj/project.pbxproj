@@ -15,7 +15,6 @@
 		5C2229A329CCB3C400F00E69 /* Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C22299D29CCB3C400F00E69 /* Clock.framework */; };
 		5C2229A429CCB3C400F00E69 /* Clock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C22299D29CCB3C400F00E69 /* Clock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5C2229B029CDFBF600F00E69 /* Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2846F72666A9CC00EC1F6D /* Kit.framework */; };
-		5C621D822B4770D6004ED7AF /* process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C621D812B4770D6004ED7AF /* process.swift */; };
 		5C645C002C591FFA00D8342A /* Net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E17CC247A94AF00449CD1 /* Net.framework */; };
 		5C645C012C591FFA00D8342A /* Net.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E17CC247A94AF00449CD1 /* Net.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5CA518382B543FE600EBCCC4 /* portal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA518372B543FE600EBCCC4 /* portal.swift */; };
@@ -36,10 +35,6 @@
 		9A2847D62666AA9C00EC1F6D /* Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2846F72666A9CC00EC1F6D /* Kit.framework */; };
 		9A2847DB2666AAA000EC1F6D /* Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2846F72666A9CC00EC1F6D /* Kit.framework */; };
 		9A2847E02666AAA400EC1F6D /* Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2846F72666A9CC00EC1F6D /* Kit.framework */; };
-		9A28481E2666AB3600EC1F6D /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28481A2666AB3500EC1F6D /* extensions.swift */; };
-		9A28481F2666AB3600EC1F6D /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28481B2666AB3500EC1F6D /* constants.swift */; };
-		9A2848202666AB3600EC1F6D /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28481C2666AB3500EC1F6D /* types.swift */; };
-		9A2848212666AB3600EC1F6D /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28481D2666AB3600EC1F6D /* helpers.swift */; };
 		9A34353C243E27E8006B19F9 /* LaunchAtLogin.app in Copy Files */ = {isa = PBXBuildFile; fileRef = 9A343527243E26A0006B19F9 /* LaunchAtLogin.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9A3E17D3247A94AF00449CD1 /* Net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E17CC247A94AF00449CD1 /* Net.framework */; };
 		9A3E17D4247A94AF00449CD1 /* Net.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3E17CC247A94AF00449CD1 /* Net.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -359,7 +354,6 @@
 /* Begin PBXFileReference section */
 		5C1E45552D11D66200525864 /* libIOReport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libIOReport.tbd; path = usr/lib/libIOReport.tbd; sourceTree = SDKROOT; };
 		5C22299D29CCB3C400F00E69 /* Clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C621D812B4770D6004ED7AF /* process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = process.swift; sourceTree = "<group>"; };
 		5CA518372B543FE600EBCCC4 /* portal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = portal.swift; sourceTree = "<group>"; };
 		5CE7E78A2C318512006BC92C /* WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE7E78B2C318512006BC92C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -371,10 +365,6 @@
 		9A141101229E721200D29793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A27D4A925389EFD001BB651 /* Stats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stats.entitlements; sourceTree = "<group>"; };
 		9A2846F72666A9CC00EC1F6D /* Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A28481A2666AB3500EC1F6D /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
-		9A28481B2666AB3500EC1F6D /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
-		9A28481C2666AB3500EC1F6D /* types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = types.swift; sourceTree = "<group>"; };
-		9A28481D2666AB3600EC1F6D /* helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 		9A343527243E26A0006B19F9 /* LaunchAtLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchAtLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3616E82613C3D400D657B6 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		9A3E17CC247A94AF00449CD1 /* Net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -428,16 +418,6 @@
 				protocol.swift,
 			);
 			target = 5CFE492629264DF1000F2856 /* Helper */;
-		};
-		E94210EB2D574B4300B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			privateHeaders = (
-				Kit.h,
-			);
-			target = 9A2846F62666A9CC00EC1F6D /* Kit */;
 		};
 		E94211502D574B8D00B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -504,21 +484,25 @@
 			);
 			target = 5CE7E7892C318512006BC92C /* WidgetsExtension */;
 		};
-		E942120A2D574D4D00B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		E97D282F2D57A22300A124EB /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				lldb.h,
+				lldb/lldb.h,
+				"Supporting Files/Info.plist",
+			);
+			privateHeaders = (
+				"Supporting Files/Kit.h",
 			);
 			target = 9A2846F62666A9CC00EC1F6D /* Kit */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		E942111A2D574B5100B980F1 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
+		E97D282E2D57A22300A124EB /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 9AECEF3D24ACF98800DB95D4 /* Copy Files */;
 			membershipExceptions = (
-				updater.sh,
+				scripts/updater.sh,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
@@ -527,11 +511,6 @@
 		E94210B12D574ADE00B980F1 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
 		E94210BC2D574B1F00B980F1 /* LaunchAtLogin */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E94210BE2D574B1F00B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = LaunchAtLogin; sourceTree = "<group>"; };
 		E94210C32D574B2600B980F1 /* Helper */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E94210C72D574B2600B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E94210C82D574B2600B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Helper; sourceTree = "<group>"; };
-		E94210D62D574B3A00B980F1 /* Widgets */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Widgets; sourceTree = "<group>"; };
-		E94210E72D574B4300B980F1 /* Supporting Files */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E94210EB2D574B4300B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Supporting Files"; sourceTree = "<group>"; };
-		E94210F32D574B4600B980F1 /* module */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = module; sourceTree = "<group>"; };
-		E94211042D574B4C00B980F1 /* plugins */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = plugins; sourceTree = "<group>"; };
-		E94211132D574B5100B980F1 /* scripts */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E942111A2D574B5100B980F1 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = scripts; sourceTree = "<group>"; };
 		E94211452D574B8D00B980F1 /* CPU */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E94211502D574B8D00B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CPU; sourceTree = "<group>"; };
 		E942115A2D574B9200B980F1 /* GPU */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E94211642D574B9200B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = GPU; sourceTree = "<group>"; };
 		E942116E2D574B9600B980F1 /* RAM */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E94211782D574B9600B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = RAM; sourceTree = "<group>"; };
@@ -542,7 +521,7 @@
 		E94211CA2D574BB900B980F1 /* Clock */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Clock; sourceTree = "<group>"; };
 		E94211D22D574BC500B980F1 /* Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E94211D42D574BC500B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Tests; sourceTree = "<group>"; };
 		E94211E02D574BCF00B980F1 /* Widgets */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E94211E32D574BCF00B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Widgets; sourceTree = "<group>"; };
-		E94211F72D574D4D00B980F1 /* lldb */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E942120A2D574D4D00B980F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {lldb.m = sourcecode.cpp.objcpp; }; explicitFolders = (); path = lldb; sourceTree = "<group>"; };
+		E97D27F02D57A22300A124EB /* Kit */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E97D282E2D57A22300A124EB /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, E97D282F2D57A22300A124EB /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {lldb/lldb.m = sourcecode.cpp.objcpp; }; explicitFolders = (); path = Kit; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -695,7 +674,7 @@
 				9A1410F7229E721100D29793 /* Stats */,
 				E94210BC2D574B1F00B980F1 /* LaunchAtLogin */,
 				9ADE6FD9265D032100D2FBA8 /* SMC */,
-				9A2846F82666A9CC00EC1F6D /* Kit */,
+				E97D27F02D57A22300A124EB /* Kit */,
 				9AB14B75248CEEC600DC6731 /* Modules */,
 				E94211D22D574BC500B980F1 /* Tests */,
 				E94211E02D574BCF00B980F1 /* Widgets */,
@@ -736,24 +715,6 @@
 				9AD33AC524BCD3EE007E8820 /* helpers.swift */,
 			);
 			path = Stats;
-			sourceTree = "<group>";
-		};
-		9A2846F82666A9CC00EC1F6D /* Kit */ = {
-			isa = PBXGroup;
-			children = (
-				E94210D62D574B3A00B980F1 /* Widgets */,
-				E94210E72D574B4300B980F1 /* Supporting Files */,
-				E94210F32D574B4600B980F1 /* module */,
-				E94211042D574B4C00B980F1 /* plugins */,
-				E94211132D574B5100B980F1 /* scripts */,
-				E94211F72D574D4D00B980F1 /* lldb */,
-				9A28481B2666AB3500EC1F6D /* constants.swift */,
-				9A28481A2666AB3500EC1F6D /* extensions.swift */,
-				9A28481D2666AB3600EC1F6D /* helpers.swift */,
-				9A28481C2666AB3500EC1F6D /* types.swift */,
-				5C621D812B4770D6004ED7AF /* process.swift */,
-			);
-			path = Kit;
 			sourceTree = "<group>";
 		};
 		9A5B1CB3229E72A7008B9D3C /* Supporting Files */ = {
@@ -1040,12 +1001,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E94210D62D574B3A00B980F1 /* Widgets */,
-				E94210E72D574B4300B980F1 /* Supporting Files */,
-				E94210F32D574B4600B980F1 /* module */,
-				E94211042D574B4C00B980F1 /* plugins */,
-				E94211132D574B5100B980F1 /* scripts */,
-				E94211F72D574D4D00B980F1 /* lldb */,
+				E97D27F02D57A22300A124EB /* Kit */,
 			);
 			name = Kit;
 			packageProductDependencies = (
@@ -1555,12 +1511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C621D822B4770D6004ED7AF /* process.swift in Sources */,
 				9AD7F866266F759200E5F863 /* smc.swift in Sources */,
-				9A2848202666AB3600EC1F6D /* types.swift in Sources */,
-				9A28481E2666AB3600EC1F6D /* extensions.swift in Sources */,
-				9A28481F2666AB3600EC1F6D /* constants.swift in Sources */,
-				9A2848212666AB3600EC1F6D /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
